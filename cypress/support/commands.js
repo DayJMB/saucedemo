@@ -17,3 +17,11 @@ Cypress.Commands.add("loginOk", (text, password) => {
 Cypress.Commands.add("clickButton", () => {
   elements.addToCart.addToCartButton().click()
 })
+
+Cypress.Commands.add("clickMenuButton", ()=>{
+  elements.logout.openMenuButton().click()
+})
+
+Cypress.Commands.add("clickLogoutButton", ()=>{
+  elements.logout.logoutButton().click()
+})
