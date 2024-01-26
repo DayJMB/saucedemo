@@ -1,0 +1,20 @@
+{
+  "name": "prueba_day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "html-report": "cypress run --spec cypress/e2e/saucedemo/login.cy.js --browser chrome --headed"
+  },
+  "author": "Day",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.15.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.6.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
